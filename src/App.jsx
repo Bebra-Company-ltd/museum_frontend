@@ -1,7 +1,13 @@
-import './app.scss'
+import { Header } from './components/Header'
+import { MainContent } from './components/MainContent'
 
 function App() {
-	return <p>Hello world</p>
+	return (
+		<>
+			<Header />
+			<MainContent />
+		</>
+	)
 }
 
 export default App
